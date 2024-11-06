@@ -1,0 +1,44 @@
+.body-bg {
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-wrapper-div {
+  padding: 20px 30px;
+  text-align: center;
+  background: #ffffff99;
+}
+.profile-image {
+  height: 200px;
+  width: auto;
+  border-radius: 100%;
+}
+.pill {
+  border-radius: 60px;
+  padding: 4px 14px;
+  color: white;
+  border-radius: 60px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.pill-color-1 {
+  background: purple;
+}
+
+.pill-color-2 {
+  background: green;
+}
+
+.pill-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  list-style: none;
+}
+
